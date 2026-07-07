@@ -261,34 +261,6 @@ The backend requires:
 
 ---
 
-# 📸 Screenshots
-
-Project screenshots include:
-
-- Home Page
-- Registration Page
-- Login Page
-- Dashboard
-- Carbon Calculator
-- History Tracking
-- Achievements
-- Settings
-
-(Add screenshots inside a `/screenshots` folder)
-
-Example:
-
-```
-screenshots/
-
-├── home.png
-├── dashboard.png
-├── calculator.png
-└── history.png
-```
-
----
-
 # 🔮 Future Scope
 
 Future improvements:
