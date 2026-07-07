@@ -1,7 +1,3 @@
-/* ===========================
-   DASHBOARD LAYOUT
-=========================== */
-
 .dashboard-layout {
 
     display: flex;
@@ -21,10 +17,6 @@
     margin-left: 280px;
 
 }
-
-/* ===========================
-   CHART CARD
-=========================== */
 
 .chart-card {
 
@@ -96,10 +88,6 @@
     width: 100%;
 
 }
-
-/* ==========================================
-SIDEBAR
-========================================== */
 
 .sidebar {
 
@@ -374,10 +362,6 @@ SIDEBAR
 
 }
 
-/* =======================================
-HEADER
-======================================= */
-
 .dashboard-header {
 
     display: flex;
@@ -498,10 +482,6 @@ HEADER
 
 }
 
-/* =====================================
-STAT CARDS
-===================================== */
-
 .stats-grid {
 
     display: grid;
@@ -606,10 +586,6 @@ STAT CARDS
 
 }
 
-/* ===========================
-   PROGRESS CARD
-=========================== */
-
 .progress-card {
     background: white;
     padding: 30px;
@@ -682,10 +658,6 @@ STAT CARDS
     color: #16a34a;
 }
 
-/* ===========================
-RECENT ACTIVITY
-=========================== */
-
 .activity-card {
     background: white;
     padding: 30px;
@@ -736,10 +708,6 @@ RECENT ACTIVITY
 .activity-info span {
     color: #64748b;
 }
-
-/* ===========================
-ECO TIPS
-=========================== */
 
 .tips-card {
     background: white;
@@ -794,10 +762,6 @@ ECO TIPS
     line-height: 1.6;
     font-size: 14px;
 }
-
-/* ===========================
-ACHIEVEMENTS
-=========================== */
 
 .achievement-card {
     margin-top: 35px;

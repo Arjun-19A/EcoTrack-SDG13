@@ -117,7 +117,7 @@ export default function Sidebar() {
         onClick={() => {
           logout();
 
-          navigate("/login");
+          navigate("/");
         }}
       >
         <FaSignOutAlt />
