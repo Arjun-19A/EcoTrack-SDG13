@@ -1,0 +1,116 @@
+.input-box {
+
+    display: flex;
+
+    align-items: center;
+
+    background: white;
+
+    border: 2px solid #e2e8f0;
+
+    border-radius: 14px;
+
+    padding: 0 18px;
+
+    margin-bottom: 22px;
+
+    transition: .3s;
+
+}
+
+.input-box:focus-within {
+
+    border-color: #16a34a;
+
+    box-shadow:
+        0 0 0 4px rgba(22, 163, 74, .15);
+
+}
+
+.input-box svg {
+
+    color: #22c55e;
+
+    font-size: 18px;
+
+}
+
+.input-box input {
+
+    flex: 1;
+
+    padding: 17px;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 16px;
+
+    background: none;
+
+}
+
+.eye-btn {
+
+    background: none;
+
+    border: none;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    color: #64748b;
+
+}
+
+.login-options {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    font-size: 14px;
+
+}
+
+.login-options label {
+
+    display: flex;
+
+    gap: 8px;
+
+    align-items: center;
+
+}
+
+.login-options a {
+
+    color: #16a34a;
+
+    font-weight: 600;
+
+}
+
+.auth-footer {
+
+    margin-top: 28px;
+
+    text-align: center;
+
+}
+
+.auth-footer a {
+
+    margin-left: 6px;
+
+    font-weight: 600;
+
+    color: #16a34a;
+
+}

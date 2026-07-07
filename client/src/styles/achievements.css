@@ -1,0 +1,80 @@
+.achievement-page {
+
+    padding: 40px;
+
+}
+
+
+.badge-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 30px;
+
+}
+
+
+.badge-card {
+
+    background: white;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 24px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .08);
+
+    transition: .3s;
+
+}
+
+
+.badge-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.badge-icon {
+
+    width: 70px;
+
+    height: 70px;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    background: #16a34a;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+
+@media(max-width:900px) {
+
+    .badge-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
